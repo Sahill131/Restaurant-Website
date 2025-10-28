@@ -37,7 +37,7 @@ nav {
     width: 100%;
     
       
-      backdrop-filter: blur(10px);
+      /* backdrop-filter: blur(10px); */
       transition: all 0.6s ease;
       z-index: 999;  /* ⚡ Add this */
 
