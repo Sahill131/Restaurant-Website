@@ -5,6 +5,7 @@
 }
 body{
     font-family: "poppins";
+    
 }
 
 ul {
@@ -37,9 +38,9 @@ nav {
     width: 100%;
     
       
-      /* backdrop-filter: blur(10px); */
+      backdrop-filter: blur(10px);
       transition: all 0.6s ease;
-      z-index: 999;  /* ⚡ Add this */
+      z-index: 999;  
 
 
 
@@ -80,7 +81,7 @@ nav.scrolled a {
 }
 
 h3 {
-    /* font-family: Arial, Helvetica, sans-serif; */
+    
     font-family: "poppins";
     margin-top: 25px;
     font-size: 24px;
@@ -106,7 +107,7 @@ li:hover {
 
 
 
-    background-color: #f5f6fa;
+    /* background-color: #f5f6fa; */
 
 
 
@@ -144,7 +145,7 @@ nav li a:hover::after {
 h1 {
 
     font-size: 60px;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    
     font-family: "poppins";
     margin-top: 20px;
 }
@@ -185,7 +186,7 @@ h5 {
 
 p {
     margin-top: 20px;
-    /* font-family: Arial, Helvetica, sans-serif; */
+   
     font-family: "poppins";
 }
 
@@ -239,7 +240,7 @@ p {
 }
 
 .style {
-    /* font-family: Arial, Helvetica, sans-serif; */
+   
     font-size: 30px;
     margin-top: 50px;
     color: #a259cf;
@@ -260,7 +261,7 @@ p {
 .section2 {
     padding: 120px 20px;
 
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
 
 }
 
@@ -275,19 +276,18 @@ a:hover {
 
 .color {
     text-align: center;
-    /* color:lightblue ; */
-    /* font-family: Arial, Helvetica, sans-serif; */
+   
     font-size: 40px;
     color: royalblue;
     letter-spacing: 3px;
     font-weight: bold;
-    /* text-shadow: 2px 2px 3px black; */
+    
     font-family: "poppins";
 
 }
 
 h2 {
-    /* font-family: Arial, Helvetica, sans-serif; */
+    
     font-size: 35px;
     margin-left: 10%;
     margin-top: 50px;
@@ -306,7 +306,7 @@ h2 {
 
 .space {
     word-spacing: 5px;
-    /* font-family: Arial, Helvetica, sans-serif; */
+   
     font-size: 20px;
     color: #333333;
     line-height: 1.8;
@@ -315,7 +315,7 @@ h2 {
 .hello {
     padding: 15px;
     margin-top: 20px;
-    /* font-family: Arial, Helvetica, sans-serif; */
+   
     border-radius: 5px;
     border: 1px black;
     font-weight: bold;
@@ -327,7 +327,7 @@ h2 {
     border-radius: 10px;
     border: 1px black;
     color: white;
-    /* font-family: Arial, Helvetica, sans-serif; */
+   
     background-color: royalblue;
 
 
@@ -340,7 +340,7 @@ h2 {
 .section3 {
     padding: 120px 20px;
 
-    background-color: white;
+    /* background-color: white; */
 }
 
 .hi {
@@ -352,7 +352,7 @@ h2 {
     border-radius: 20px;
     box-sizing: border-box;
     border-radius: 25px;
-    /* thoda zyada rounded */
+   
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4);
 }
 
@@ -649,12 +649,7 @@ input {
     transform: scale(1.02);
 }
 
-/* @media (max-width: 900px) {
-    .flex.top {
-        flex-direction: column;
-        gap: 30px;
-    }
-} */
+
 
 .footer {
     padding: 50px 50px;
@@ -698,7 +693,7 @@ input {
 }
 
 
-/* 🔹 For small mobile screens (max-width: 480px) */
+
 @media (max-width: 480px) {
   nav {
     flex-direction: column;
@@ -764,7 +759,7 @@ input {
   }
 }
 
-/* 🔹 For medium devices (tablets: 481px - 768px) */
+
 @media (min-width: 481px) and (max-width: 768px) {
   nav {
     flex-direction: row;
@@ -841,7 +836,7 @@ input {
 }
 
 
-/* 💻 For tablets (between 768px - 1024px) */
+
 @media (max-width: 1024px) and (min-width: 769px) {
 
     nav ul {
