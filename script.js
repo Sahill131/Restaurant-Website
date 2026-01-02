@@ -9,8 +9,8 @@ gsap.from(".red3",{
 })
 gsap.from("nav ul li",{
     y:20,
-    duration:0.3,
-    stagger:0.5,
+    duration:0.20,
+    stagger:0.10,
     opacity:0
     
 })
@@ -74,3 +74,21 @@ gsap.from(".space",{
     
 })
 
+gsap.to(".hii",{
+    x:"-1000%",
+    ease:"none",
+    duration:10,
+    repeat:-1
+
+})
+gsap.to(".hiii",{
+    x:"-700%"
+})
+gsap.to(".hiii",{
+
+    x:"0%",
+    ease:"none",
+    duration:10,
+    repeat:-1
+
+})
