@@ -92,3 +92,15 @@ gsap.to(".hiii",{
     repeat:-1
 
 })
+gsap.from(".food h1",{
+    x:-500,
+    scrollTrigger:{
+        trigger:".food h1",
+        scroller:"body",
+        start:"top 80%",
+        end:"top -100%",
+        
+    }
+
+
+})
